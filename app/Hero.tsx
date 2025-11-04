@@ -61,7 +61,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <div className="absolute bottom-24 md:bottom-32 lg:bottom-38 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-gray-300 tracking-[0.5rem] md:tracking-[1rem] lg:tracking-[3rem] pointer-events-none select-none opacity-40">
+      <div className="font-mono absolute bottom-24 md:bottom-32 lg:bottom-38 text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-gray-300 tracking-[0.5rem] md:tracking-[1rem] lg:tracking-[3rem] pointer-events-none select-none opacity-40">
         ABBA IS'HAQ
       </div>
 

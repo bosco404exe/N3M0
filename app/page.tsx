@@ -1,4 +1,5 @@
-import About from "./About";
+import About from "./_About";
+import Contact from "./_Contact";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 
@@ -20,6 +21,7 @@ const Page = () => {
       <main>
         <Hero />
         <About />
+        <Contact />
       </main>
     </>
   );

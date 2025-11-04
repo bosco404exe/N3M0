@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-10 w-full max-w-xs md:max-w-2xl lg:max-w-3xl bg-transparent/30 z-50">
+      <nav className="fixed top-10 w-full max-w-xs font-mono md:max-w-2xl lg:max-w-3xl bg-transparent/30 z-50">
         <div className="px-8 py-6 flex justify-between items-center border border-black/10 rounded-full">
           <h1 className="text-xl text-foreground">ABSTERR.DEV</h1>
 

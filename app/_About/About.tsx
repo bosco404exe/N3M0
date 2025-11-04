@@ -50,7 +50,7 @@ const About = () => {
         ))}
       </div>
 
-      <div className="bg-foreground text-white rounded-3xl p-4 md:p-6 max-w-2xl mx-auto">
+      <div className="bg-foreground text-background rounded-3xl p-4 md:p-6 max-w-2xl mx-auto">
         <p className="font-mono text-xs md:text-sm mb-3">
           <span className="text-green-400">&gt;</span> CURRENT STATUS:{" "}
           <span className="text-green-400 font-bold">
