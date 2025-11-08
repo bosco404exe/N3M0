@@ -64,8 +64,11 @@ const Projects = () => {
             <img
               src="/404.webp"
               alt="404"
-              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto rounded-3xl mb-6 md:mb-8"
+              className="w-full max-w-xs sm:max-w-sm md:max-w-md h-auto rounded-3xl mb-2"
             />
+            <p className="text-foreground/40 text-[10px] sm:text-xs font-normal mb-6 md:mb-8">
+              image credit: haveibeenpwned
+            </p>
             <div className="text-foreground/70 text-xs sm:text-sm md:text-base font-mono text-center space-y-3 sm:space-y-4 max-w-2xl px-2">
               <p className="leading-relaxed">
                 Really? You&apos;re still checking? You didn&apos;t end up here by accident… or did you?
