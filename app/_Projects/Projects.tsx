@@ -1,41 +1,3 @@
-import ProjectCard from "./ProjectCard";
-
-const projects = [
-  {
-    title: "SCRIB",
-    image:
-      "https://res.cloudinary.com/dlqecula3/image/upload/v1762530830/Screenshot_150_laijzl.png",
-    description:
-      "A real-time collaborative platform for creating, editing, and organizing documentation and notes across teams.",
-    fullDescription: `
-      A real-time collaborative platform for creating, editing, and organizing 
-      documentation and notes. Multiple users can work together simultaneously and share 
-      updates instantly. The system ensures smooth synchronization, structured 
-      organization, and an intuitive writing experience designed for both individuals and teams.
-      `,
-    stack: ["Next.js", "TypeScript", "Tailwind", "Node.js", "PostgreSQL"],
-    codeUrl: "https://github.com/absterr/scrib",
-    previewUrl: "https://scrib-puce.vercel.app",
-    videoDemo:
-      "https://res.cloudinary.com/dlqecula3/video/upload/v1762532125/Scrib_demo_g7hctj.mp4",
-  },
-  {
-    title: "NODE-AUTH",
-    image: "",
-    description:
-      "A secure, session aware authentication system for typescript applications.",
-    fullDescription: `
-      A robust typescript authentication service featuring secure user login, session 
-      tracking, and token-based access control. Users can sign in, maintain active 
-      sessions, and refresh access seamlessly. The system ensures reliable security, 
-      smooth authentication flow, and efficient session management across all user interactions.
-      `,
-    stack: ["Node.js", "Typescript", "Express", "PostgreSQL"],
-    codeUrl: "https://github.com/absterr/NodeAuth",
-    previewUrl: null,
-    videoDemo: null,
-  },
-];
 
 const Projects = () => {
   return (
@@ -53,10 +15,15 @@ const Projects = () => {
       </p>
 
       <div className="py-6 md:py-12 px-4 md:px-8">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-          {projects.map((project) => (
-            <ProjectCard key={project.title} project={project} />
-          ))}
+        <div className="max-w-7xl mx-auto flex flex-col items-center justify-center">
+          <img
+            src="/404.webp"
+            alt="404"
+            className="max-w-md w-full h-auto rounded-3xl mb-6 md:mb-8"
+          />
+          <p className="text-foreground/70 text-sm md:text-base font-mono text-center">
+            You know why you are here else you wont be here.
+          </p>
         </div>
       </div>
     </section>

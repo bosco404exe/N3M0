@@ -9,13 +9,13 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, label: "Github", url: "https://github.com/absterr" },
+  { icon: Github, label: "Github", url: "https://github.com/bosco" },
   {
     icon: Linkedin,
     label: "LinkedIn",
     url: "https://linkedin.com/in/abba-is-haq-b14579321",
   },
-  { icon: Twitter, label: "𝕏", url: "https://x.com/_absterr" },
+  { icon: Twitter, label: "𝕏", url: "https://x.com/_bosco" },
 ];
 
 const Footer = () => {
@@ -34,7 +34,7 @@ const Footer = () => {
             {/* About */}
             <div>
               <h3 className="font-bold text-lg pb-4 tracking-wide">
-                ABSTERR.DEV
+                BOSCO.DEV
               </h3>
               <p className="text-sm text-gray-400 leading-relaxed">
                 Dedicated to building projects that engage and inspire.
@@ -80,13 +80,13 @@ const Footer = () => {
                   </a>
                 ))}
               </div>
-              <p className="text-sm text-gray-400">absterr.dev@gmail.com</p>
+              <p className="text-sm text-gray-400">bosco.dev@gmail.com</p>
             </div>
           </div>
 
           <div className="border-t border-gray-700 pt-8 flex justify-between items-center">
             <p className="text-xs text-gray-500">
-              © 2025 ABSTERR.DEV - ALL RIGHTS RESERVED
+              © 2025 BOSCO.DEV - ALL RIGHTS RESERVED
             </p>
             <div className="pl-1">
               <a

@@ -62,7 +62,7 @@ const Navbar = () => {
               className="text-sm md:text-md lg:text-lg text-foreground hover:cursor-pointer"
               onClick={() => handleNavClick("home")}
             >
-              ABSTERR.DEV
+              BOSCO.DEV
             </button>
           </div>
 

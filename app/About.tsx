@@ -1,31 +1,30 @@
-import { Code2, Server, Smartphone, Globe } from "lucide-react";
+import { Shield, Code2, Network, Users } from "lucide-react";
 
 const About = () => {
   const skills = [
     {
+      icon: Shield,
+      title: "CYBERSECURITY",
+      tech: "OSINT, SOC, Pentesting, Network Security, Info Sec",
+      description: "Securing systems through offensive and defensive security practices",
+    },
+    {
       icon: Code2,
-      title: "FRONTEND",
-      tech: "Typescript, React, Next.js, Tailwind CSS",
-      description: "Building responsive and interactive user interfaces",
+      title: "WEB DEVELOPMENT",
+      tech: "HTML, CSS, React, Python, Flutter",
+      description: "Building responsive web applications and mobile experiences",
     },
     {
-      icon: Server,
-      title: "BACKEND",
-      tech: "Node.js, Express.js, Bun, Hono, PostreSQL",
-      description: "Scalable server-side applications and APIs",
+      icon: Network,
+      title: "NETWORKING",
+      tech: "NOC Operations, Network Security, Infrastructure",
+      description: "Network operations and security with hands-on NOC experience",
     },
     {
-      icon: Smartphone,
-      title: "MOBILE APPLICATIONS",
-      tech: "ReactNative, Expo",
-      description:
-        "Building beautiful mobile experiences with native performance",
-    },
-    {
-      icon: Globe,
-      title: "DEPLOYMENT",
-      tech: "Vercel, CI/CD, Github, Render",
-      description: "Automated deployment and cloud infrastructure",
+      icon: Users,
+      title: "PROJECT MANAGEMENT",
+      tech: "Project Lead, Team Coordination, Technical Leadership",
+      description: "Leading technical projects and managing cross-functional teams",
     },
   ];
 
@@ -40,10 +39,12 @@ const About = () => {
         </h1>
         <div className="w-16 md:w-24 h-1 bg-green-500 mx-auto mb-6 md:mb-8"></div>
         <p className="text-xs md:text-sm leading-relaxed max-w-2xl mx-auto text-foreground/70 px-2">
-          I&apos;m a software developer who loves bringing ideas to life through
-          thoughtful, purposeful work. What started as curiosity has grown into
-          a passion and dedication to creating experiences that feel intuitive,
-          meaningful, crafted with intention every step of the way.
+          I&apos;m a cybersecurity specialist and tech enthusiast driven by information
+          and technology. What started as a curiosity for creating and understanding
+          how things work—and how they can be broken—has grown into a passion for
+          securing systems, building applications, and leading projects. Every solution
+          I craft is intentional, whether it&apos;s protecting networks, developing
+          secure applications, or managing complex technical initiatives.
         </p>
       </div>
 
@@ -71,11 +72,11 @@ const About = () => {
         <p className="font-mono text-xs md:text-sm mb-3">
           <span className="text-green-500">&gt;</span> CURRENT STATUS:{" "}
           <span className="text-green-500 font-bold">
-            AVAILABLE FOR PROJECTS
+            RESTING
           </span>
         </p>
         <p className="font-mono text-xs md:text-sm text-background/50">
-          Ready to collaborate on your next big idea
+          Which usually means I broke something just to fix it later
         </p>
       </div>
     </section>

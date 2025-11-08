@@ -6,7 +6,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "EMAIL",
-      value: "absterr.dev@gmail.com",
+      value: "bosco.dev@gmail.com",
     },
     {
       icon: Phone,
@@ -24,7 +24,7 @@ const Contact = () => {
     {
       icon: Github,
       label: "Github",
-      url: "https://github.com/absterr",
+      url: "https://github.com/bosco",
     },
     {
       icon: Linkedin,
@@ -34,7 +34,7 @@ const Contact = () => {
     {
       icon: Twitter,
       label: "X",
-      url: "https://x.com/_absterr",
+      url: "https://x.com/_bosco",
     },
   ];
 

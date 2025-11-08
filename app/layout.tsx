@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Absterr",
+  title: "Bosco",
   description: "This is the portfolio of Abba Is'haq",
 };
 

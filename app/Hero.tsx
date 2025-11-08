@@ -1,13 +1,13 @@
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 
 const socials = [
-  { url: "https://github.com/absterr", label: "Github", icon: Github },
+  { url: "https://github.com/bosco", label: "Github", icon: Github },
   {
     url: "https://linkedin.com/in/abba-is-haq-b14579321",
     label: "LinkedIn",
     icon: Linkedin,
   },
-  { url: "mailto:absterr.dev@gmail.com", label: "Mail", icon: Mail },
+  { url: "mailto:bosco.dev@gmail.com", label: "Mail", icon: Mail },
 ];
 
 const Hero = () => (
@@ -23,7 +23,7 @@ const Hero = () => (
     <header className="relative z-10 pt-24 sm:pt-28 md:pt-32 min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 md:px-8">
       <div className="font-mono max-w-2xl w-full">
         <h1 className="text-4xl text-foreground sm:text-5xl md:text-6xl lg:text-7xl font-black text-center mb-2 sm:mb-4">
-          ABSTERR.DEV
+          BOSCO.DEV
         </h1>
 
         <div className="flex justify-center mb-6 sm:mb-8">
@@ -31,20 +31,24 @@ const Hero = () => (
         </div>
 
         <p className="text-center text-xs sm:text-sm md:text-base text-foreground/60 tracking-widest mb-6 sm:mb-8">
-          &gt; FULL-STACK DEVELOPER
+          &gt; CYBERSECURITY SPECIALIST & TECH ENTHUSIAST
         </p>
 
         <div className="text-center mb-8 sm:mb-10 text-sm sm:text-base leading-relaxed text-foreground/70">
           <p>
             Hi, my name is{" "}
             <span className="bg-foreground text-sm text-background px-2 py-1 inline-block rounded-2xl">
-              Abba Is'haq
+              Clinton Omotoiynbo
             </span>{" "}
-            — I am a software developer who loves turning ideas into real,
-            working products. Driven by dedication and a passion for innovation,
-            I&apos;m constantly exploring, experimenting, and pushing myself to
-            build things that don&apos;t just work, but feel intuitive and make
-            a lasting impression.
+            — I am a cybersecurity specialist and tech enthusiast who thrives on
+            the dual nature of creation and deconstruction. Driven by an insatiable
+            curiosity for information and technology, I&apos;m constantly exploring
+            the boundaries between building secure systems and understanding how
+            they can be broken. Whether it&apos;s securing networks, developing
+            applications, or leading projects, I approach every challenge with
+            the mindset of someone who loves to create solutions and understand
+            their vulnerabilities—because that&apos;s what got me into tech in
+            the first place.
           </p>
         </div>
 
