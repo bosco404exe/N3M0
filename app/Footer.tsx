@@ -51,21 +51,8 @@ const Footer = () => {
           </div>
 
           <div className="border-t border-gray-700 pt-6 sm:pt-8">
-            <p className="text-xs text-gray-500 text-center sm:text-left mb-2">
-              © 2025 BOSCO.DEV - ALL RIGHTS RESERVED
-            </p>
             <p className="text-xs text-gray-500 text-center sm:text-left">
-              I was too lazy to build this or create a CV for years. <br /> Site template made by{" "}
-              <a
-                href="http://absterr.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition underline"
-                aria-label="Visit Absterr's portfolio"
-              >
-                Absterr
-              </a>
-              .
+              © 2025 BOSCO.DEV - ALL RIGHTS RESERVED
             </p>
           </div>
         </div>
